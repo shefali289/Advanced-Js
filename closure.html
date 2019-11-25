@@ -1,0 +1,18 @@
+<html>
+<body>
+    <button onclick="closure()">Click</button>
+
+    <script>
+        function closure() 
+        {
+            var msg='Hi!!'; 
+            function display() 
+            { 
+                alert(msg); 
+            }
+            display();
+        }
+        closure();
+    </script>
+</body>
+</html>

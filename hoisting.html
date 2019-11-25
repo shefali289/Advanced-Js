@@ -1,0 +1,22 @@
+<html>
+<body>
+    <button onclick="hoist()">Click</button>
+    
+    <script>
+        function hoist() //HOISTING
+        {
+            msg='Hi!!!';
+            console.log(msg);
+            var msg;
+        }
+
+        function nohoist() //NO HOISTING
+        {
+            var msg;
+            console.log(msg);
+            msg='Hi!!!';
+        }
+</script>
+
+</body>
+</html>
